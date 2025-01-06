@@ -1,0 +1,20 @@
+[project]
+name = "strawberry-tutorial"
+version = "0.1.0"
+description = "Django and Strawberry tutorial for GraphQL usage"
+authors = [
+    {name = "lmbelo",email = "lucas.belo@live.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "django (==5.0.6)",
+    "strawberry-graphql-django (==0.53.1)",
+    "pytest (==8.2.2)",
+    "pytest-django (==4.8.0)"
+]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
